@@ -17,19 +17,20 @@ var insects = [
     family: 'Scarabidae',
     size: [20, 30],
     food: {
-      eatsInsects: true,
-      eatsDung: false,
+      eatsInsects: false,
+      eatsDung: true,
       eatsPlants: false
-    }  },
+    }
+  },
   {
     name: 'Ant Nest Beetle',
     img: 'stag-beetle.jpg',
     family: 'Lucanidae',
     size: [5, 120],
     food: {
-      eatsInsects: true,
+      eatsInsects: false,
       eatsDung: false,
-      eatsPlants: false
+      eatsPlants: true
     }
   },
   {
@@ -38,9 +39,9 @@ var insects = [
     family: 'Cassidinae',
     size: [1, 18],
     food: {
-      eatsInsects: true,
+      eatsInsects: false,
       eatsDung: false,
-      eatsPlants: false
+      eatsPlants: true
     }
   }
 ];
